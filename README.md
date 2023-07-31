@@ -9,14 +9,14 @@
 
 **EDA Insights:**
 1.	There are about 1,155 receipts in the dataset provide, 857 receipts have a correct transaction mapped based on (Merchant/Feature transaction id)
-2.	Univariate analysis: There are no outliers in the data or missing values in the data
-3.	Bivariate analysis:
+2.	**Univariate analysis:** There are no outliers in the data or missing values in the data
+3.	**Bivariate analysis:**
 a.	DifferentPredictedDate and DateMappingMatch are perfectly correlated.
 b.	DifferentPredictedTime and TimeMappingMatch are perfectly correlated.
 c.	We will skip this data to remove redundant variable in the model.
-d.	DateMappingMatch has the highest correlation with the correct transaction tagging classification followed by TimeMappingMatch
+d.	**DateMappingMatch** has the highest correlation with the correct transaction tagging classification followed by **TimeMappingMatch**
 e.	Name and descriptions mapping have shown a positive correlation with correct classification.
-4.	Model importance:
+4.	**Model importance:**
 a.	Date and Description matching seems to be more important matching properties to identify the right transaction given a set of possible transactions.
 
 **Model training and analysis:**
