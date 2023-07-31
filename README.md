@@ -53,18 +53,18 @@ a.	Date and Description matching seems to be more important matching properties 
 
 
 **Recommendations to improve model performance:**
-1.	**Collect more training data :** Have more training data will provide model to learn more patterns and helps improve generalization over a wide range of examples
+1.	**Collect more training data :** Having more training data will provide model to learn more patterns and helps improve generalization over a wide range of examples
 2.	**Explore other imbalance methods:** There are other data balancing methods such as over sampling, undersampling,  SMOTE based methods which can lead to performance gains
 3.	**Experiment with other ML models :** We should experiment with other model such as XGBoost, Catboost, Linear models to compare the model overall performance [accuracy/speed] to optimize, also experiment with more sophisticated deep learning models to improve the model accuracy
 4.	**Get better matching input :** Current model matching variables will improve with better quality of input such as better receipt keyword extraction in terms of numbers, date, name and description match
 5.	**Hyperparameter tuning:** Have done some experiments with hyperparameter tuning using optuna module based optimization methods, didn’t contribute a lot to getting good model, we should explore other hyperparameter tuning to provide a more efficient model over more parameters to see if it helps model evaluation metrics
-6.	**Feature engineering :** Explore interaction variable and  variable transformation, improve the matching logic criteria which is used as model input
+6.	**Feature engineering :** Explore interaction variable and  variable transformation, improve the **matching logic criteria** which is used as model input
 
 
 **Next steps:**
 1.	**Deploy the model :** Use the saved model and integrate with the API to allow for inference on the app in real time. Select the best transaction based on the highest probability score based on the matching properties
 2.	**Track the model performance :** Monitor the model accuracy metrics, classification rate to observe the performance and check for data/model/concept drifts
-3.	Retrain the data with more samples as we have more samples collected
+3.	**Retrain** the data with more samples as we have more samples collected
 4.	Use more sophisticated hyperparameter optimization,experiment with new models etc
 5.	Explore options provided in the recommendations to make the model more robust across all evaluation metrics
 
