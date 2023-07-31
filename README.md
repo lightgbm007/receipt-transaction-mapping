@@ -44,6 +44,7 @@ a.	Date and Description matching seems to be more important matching properties 
 
 **Feature importance plot based on frequency.**
 
+![Feature Importance](https://github.com/lightgbm007/receipt-transaction-mapping/blob/main/feature%20importance.png)
  
 **Trained Model saving**
 
