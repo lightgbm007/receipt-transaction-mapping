@@ -75,7 +75,7 @@ a.	Date and Description matching seems to be more important matching properties 
 
 1.	Standard cut off basis Model evaluation [0.5]
 
-## Model Performance
+**Model Performance**
 
 |        | Precision | Recall | F1-Score |
 |--------|-----------|--------|----------|
