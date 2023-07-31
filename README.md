@@ -76,8 +76,6 @@ a.	Date and Description matching seems to be more important matching properties 
 
 1.	Standard cut off basis Model evaluation [0.5]
 
-**Model Performance**
-
 |        | Precision | Recall | F1-Score |
 |--------|-----------|--------|----------|
 | Train  |    81%    |  64%   |   72%    |
@@ -89,5 +87,10 @@ Model performance improved by selecting the right threshold
 
 
 2.	Precision Recall Curves [Training and Testing data] 
+
+![Training PR Curve](https://github.com/lightgbm007/receipt-transaction-mapping/blob/main/training%20pr%20curve.png)
+
+![Testing PR Curve](https://github.com/lightgbm007/receipt-transaction-mapping/blob/main/testing%20pr%20curve.png)
+
 
   
